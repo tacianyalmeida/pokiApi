@@ -42,7 +42,7 @@ const getPokemonsIds =  apiResults => apiResults.map(({url}) =>{
  })
 
  const getPokemonsImgs = async ids => {
-const imgs = ids.map((id) => `./img-pokemons/${id}.png`);
+const imgs = ids.map((id) => `../img-pokemons/${id}.png`);
 return imgs;
 };
 
